@@ -1,0 +1,29 @@
+# Taken from:
+# https://gist.github.com/brandonb927/3195465
+
+echo "Expanding the save panel by default"
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+
+echo "Show hidden files"
+defaults write com.apple.Finder AppleShowAllFiles -bool true
+
+echo "Show dotfiles"
+defaults write com.apple.finder AppleShowAllFiles TRUE
+
+echo "Finder: showing all filename extensions"
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+echo "Finder: show path bar"
+defaults write com.apple.finder ShowPathbar -bool true
+
+echo "Finder: allowing text selection in Quick Look/Preview"
+defaults write com.apple.finder QLEnableTextSelection -bool true
+
+echo "Disabling the warning when changing a file extension"
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+echo "Use column view in all Finder windows by default"
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
+
+echo "Avoiding creating stupid .DS_Store files on network volumes"
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
