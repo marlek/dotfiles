@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-These are some settings and configurations that make my life easier. I've gathered these from different sources over time, so I can't give much credit. Here's a good repo if you want to take this more seriously: [https://github.com/holman/dotfiles](https://github.com/holman/dotfiles)
+These are some settings and configurations that make my life easier. I've gathered these from different sources over time, so I can't give much credit. If you want to get more serious about dotfiles, here's the ultimate source of information: [http://dotfiles.github.io/](http://dotfiles.github.io/)
 
 Anyway, you can use these scripts however you prefer. Here's how I make the best use of them:
 
