@@ -15,6 +15,7 @@ and then add this line to .bash_profile, or .profile, or whichever file you syst
     source ~/.bash_custom
 
 Make sure you set `my_hostname` variable, since the script uses this one to decide whether to display user and hostname in prompt. I keep local hostname in this variable, so I have a clean prompt on my computer, but when I copy the script to a remote machine I always have user and hostname displayed.
+Below 'my_hostname' you can also set the preferred editor for you command line.
 
 ## OSX
 These are some commands I extracted from: [https://gist.github.com/brandonb927/3195465](https://gist.github.com/brandonb927/3195465)

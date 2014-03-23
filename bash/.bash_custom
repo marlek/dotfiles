@@ -1,4 +1,5 @@
 my_hostname=marko-mbp.local
+export EDITOR=nano
 
 #### PROMPT ####
 
