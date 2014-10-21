@@ -38,6 +38,7 @@ alias hosts='sudo $EDITOR /etc/hosts'
 alias subl="open -a /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text"
 alias o="open"
 alias oo="open ."
+alias please='sudo "$BASH" -c "$(history -p !!)"'
 
 # ls command
 # Always use color output for `ls`
