@@ -49,6 +49,11 @@ alias vup="vagrant up"
 alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 
+# PHP
+alias composer='/usr/local/bin/composer'
+
 # Laravel framework
 alias art='php artisan'
-alias composer='/usr/local/bin/composer'
+
+# Lumen framework
+alias tt='tail -f storage/logs/lumen.log'
