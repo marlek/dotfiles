@@ -1,5 +1,5 @@
 my_hostname=marko-mbp.local
-export EDITOR=nano
+export EDITOR=vim
 
 #### PROMPT ####
 
